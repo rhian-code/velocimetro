@@ -6,15 +6,16 @@ body{
     background: rgb(50, 132, 209);
     font: 500 25px 'fira code' ;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
-    text-align: center;
-   
+    font-size: 1.5rem;
 }
 section{
-    width: 45.25rem;
+    width: 80%;
     height: 30rem;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,6 +24,9 @@ section{
     /* padding: 0.9rem; */
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+}
+div{
+    width: 80%;
 }
 #velocidade{
     padding: 5px;
@@ -35,5 +39,6 @@ section{
     font-size:16px
 }
 footer{
-   text-align: center;
+    font-size: 1rem;
 }
+
